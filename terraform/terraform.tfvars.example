@@ -1,0 +1,21 @@
+project_name = "az-platform-lab"
+location     = "Brazil South"
+environment  = "lab"
+
+owner       = "Michelle de Lara Ferraz Silveira Almeida"
+cost_center = "portfolio-cloud"
+
+admin_username = "azureadmin"
+
+# Replace with the content of your public SSH key.
+ssh_public_key = "ssh-ed25519 AAAA_REPLACE_ME user@example"
+
+# Replace with your public IP using /32.
+admin_cidr = "203.0.113.10/32"
+
+vm_size = "Standard_B1s"
+
+# Optional FinOps budget guardrail.
+enable_budget         = false
+monthly_budget_amount = 50
+budget_contact_emails = ["replace-me@example.com"]
