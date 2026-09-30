@@ -5,6 +5,8 @@ Completed portfolio reference implementation focused on Microsoft Azure Platform
 This project demonstrates how I structure an Azure environment using **Terraform**, combining **networking, Linux, security, observability, DevSecOps, FinOps and AI-ready architecture** in a version-controlled infrastructure workflow.
 
 > **Scope note:** this repository is a hands-on reference implementation for portfolio and technical demonstration. It does not claim production ownership of a corporate Azure environment. The infrastructure can be deployed to an authorized Azure subscription and destroyed after validation to control cost.
+>
+> **FinOps note:** the environment was provisioned for validation and then destroyed to avoid unnecessary cloud consumption and preserve student credits.
 
 ## What this project demonstrates
 
